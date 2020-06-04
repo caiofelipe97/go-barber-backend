@@ -6,16 +6,16 @@ Barber appointments management back-end made with NodeJS using Typescript
   - Run "yarn start"
   
 ## Routes
-  ## Appointments
+  ### Appointments
     - GET /appointments
     - POST /appointments
   ### Users
     - POST /users
     - Patch /users (to update Avatar)
   ### Sessions
-    - Create Session (to Login)
+    - POST /sessions (to Login)
 
-Authentication with JWT token
+##### Authentication with JWT token
 
 
 This project was made in GoStack Bootcamp by RocketSeat
