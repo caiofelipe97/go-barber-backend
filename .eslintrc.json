@@ -19,7 +19,10 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
   "rules": {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
@@ -33,7 +36,9 @@
     "no-useless-constructor": "off",
     "@typescript-eslint/interface-name-prefix": [
       "error",
-      { "prefixWithI": "always" }
+      {
+        "prefixWithI": "always"
+      }
     ],
     "import/extensions": [
       "error",
